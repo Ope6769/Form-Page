@@ -1,0 +1,137 @@
+.common {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.common h1 {
+    font-size: 2.5em;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 30px;
+}
+
+.boxes {
+    width: 30%;
+    background-color: #CA6A42;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+}
+
+.boxes .num {
+    box-sizing: content-box;
+    font-size: 5em;
+    background-color: #F8AB05;
+    width: min-content;
+    margin: 10% 40%;
+    color: #000;
+}
+
+.boxes .para {
+    padding: 10px;
+    word-spacing: 5px;
+    color: #fff;
+}
+
+.boxes button {
+    height: 40px;
+    padding: 10px;
+    background-color: #F8AB05;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 60%;
+}
+
+.boxes button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* FOOTER */
+
+.footer {
+    padding: 10px;
+    background-color: #CA6A42;
+    margin: 0%;
+    color: #fff;
+    text-align: center;
+}
+
+/* .footer form {
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+} */
+
+.footer form input {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 10px;
+    width: 30%;
+}
+
+.footer form button {
+    height: 50px;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 20%;
+}
+
+
+.footer .box .box2 {
+    text-align: center;
+    justify-content: center;
+    margin-right: 10%;
+}
+
+.box .box2 h3 {
+    text-align: center;
+}
+
+.box .box2 ul {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.box .box2 ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.box .box2 ul li a:hover {
+    color: #ecc47a;
+}
+
+
+/* Services */
+
+.boxes .img {
+    width: 100%;
+}
+
+.boxes .img .fa {
+    font-size: 8em;
+}

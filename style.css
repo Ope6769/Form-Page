@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.home {
+    background: url("./web-g1651f0239_1920.jpg") no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.menu-bar {
+    background-color: #CA6A42;
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.active,
+.menu-bar ul li:hover {
+    background-color: #F8AB05;
+    border-radius: 3px;
+    border-bottom: 1px dotted #fff;
+}
+
+.menu-bar .fa {
+    margin-right: 8px;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: #CA6A42;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    color: #F8AB05;
+}
+
+.sub-menu-1 .fa {
+    float: right;
+    color: #fff;
+}
+
+.sub-menu-2 {
+    display: none;
+}
+
+.sub-menu-1 ul li:hover .sub-menu-2 {
+    display: block;
+    position: absolute;
+    background-color: #CA6A42;
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+
+.banner {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10% 20%;
+}
+
+.banner p,
+h1 {
+    color: #fff;
+}
+
+.banner h1 {
+    display: block;
+    text-align: center;
+}
+
+.banner p {
+    /* width: 70%; */
+    margin: 20px;
+}
+
+.banner h1 {
+    font-size: 4em;
+}
+
+.btn-1 button {
+    background-color: #F8AB05;
+    border-radius: 5px;
+    width: 30%;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-bottom: 10px;
+}
+
+.btn-2 button {
+    background-color: transparent;
+    border-radius: 5px;
+    width: 30%;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn-1 button:hover {
+    background-color: #fff;
+    color: #F8AB05;
+}
+
+.btn-2 button:hover {
+    background-color: #fff;
+    color: #F8AB05;
+}
+
+/* Contact Page */
